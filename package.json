@@ -1,0 +1,17 @@
+{
+  "name": "ddpoints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "export": "electron-packager . SampleDaD --platform=win32 --arch=x64 --overwrite --electron-version=5.0.0"
+  },
+  "author": "@cocomoff",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.0",
+    "fs": "0.0.1-security",
+    "svg.js": "^2.7.1"
+  }
+}
